@@ -134,6 +134,7 @@ const AppLayout = () => {
         <Body/>
     </div>
 }
-const root = createRoot(document.getElementById("root"));
 
+
+const root = createRoot(document.getElementById("root"));
 root.render(<AppLayout/>);
